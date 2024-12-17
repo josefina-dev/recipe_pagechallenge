@@ -86,23 +86,24 @@
 
       color: hsl(14, 45%, 36%); 
     }
-    @media screen and (max-width:600px){
-      img {
-        max-width: 100%;
-        height:auto;
+    @media (min-width: 1200px) and (max-width:1440px){
+      h1,h2 {
+        padding: 2rem 1.2rem;
+     }
+
+    img {
+        border-radius: 10px;
+     }
+
+    .Recipe{
+        display: block;
       }
-      body {
-        max-width: 600px;
-        margin-inline:auto:
+
+    .mobile {
+        display: none; 
       }
         
-      .Recipe {
-        max-width:600px;
-        margin-inline:auto;
-      }
-      h1 {
-        font-size:2rem;
-      }
+      
     }
     
   </style>
